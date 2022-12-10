@@ -1,0 +1,77 @@
+.eventBody{
+    background-color:white;
+    height:100vh;
+    margin: 4vh 2vh 4vh 2vh;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+.eventMain{
+    height:86vh;
+    background: url("../../../public/images/eventImg.png")4vw -25vh/200vh no-repeat;
+    object-fit: cover;
+    overflow: hidden;
+}
+.bgImg2{
+    position: relative;
+    height:160vh;
+    top:-20vh;
+    opacity: 0.2;
+    z-index: 0;
+}
+.bodyTitle{
+    font-family: 'Porter Sans Block';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3em;
+    color: #000000;
+    position: absolute;
+    top:25vh;
+    left: 43vw;
+    text-align: center;
+}
+.eventContent{
+    width: 98%;
+    height: 64%;
+    position: absolute;
+    left:1.4vw;
+    top:38vh;
+    display: flex;
+    flex-direction: row;
+    align-items:center ;
+    justify-content: center;
+    gap: 5vw;
+}
+.img{
+    height:25vh;
+}
+.eventTitle{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2em;
+}
+.eventDesc{
+    width:19vw;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2em;
+    text-align: center;
+}
+.event{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:57vh;
+    gap:1vh;
+    background: #DEDEDE;
+    padding: 4vh 2vh 4vh 2vh;
+    transition-duration: 0.5s;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.event:hover{
+    scale: 1.05;
+}
+.event:active{
+    scale: 0.95
+}

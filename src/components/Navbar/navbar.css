@@ -1,0 +1,49 @@
+.navBody{
+    width:100%;
+    height: 13vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1vh;
+}
+.navLeft{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1vw;
+    padding-left: 1vw;
+}
+.pageTitle{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 6em;
+    color: #000000;
+}
+.pageSubTitle{
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 2.2em;
+    color: #000000;
+    text-align: right;
+}
+.ieeeLogo{
+    height: 13vh;
+}
+.navRight{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.4em;
+    color: #000000;
+    gap: 3vw;
+    align-items: center;
+    justify-content: center;
+    padding-right: 3vw;
+    z-index: 100;
+}
