@@ -18,7 +18,6 @@ export default function Navbar(){
             <div className="navRight">
                 <span onClick={()=>handleNav(("home"))} >HOME</span>
                 <span onClick={()=>handleNav(("events"))} >EVENTS</span>
-                <span onClick={()=>handleNav(("contacts"))} >CONTACTS</span>
             </div>
         </div>
     );
