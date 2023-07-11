@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ieee_frontend/static/css/main.a9e40b77.css",
+    "main.js": "/ieee_frontend/static/js/main.e02e8823.js",
+    "static/media/bgImg2.png": "/ieee_frontend/static/media/bgImg2.d983401cdce08e83e103.png",
+    "static/media/eventImg.png": "/ieee_frontend/static/media/eventImg.14e1c118b40586e02f6e.png",
+    "index.html": "/ieee_frontend/index.html",
+    "main.a9e40b77.css.map": "/ieee_frontend/static/css/main.a9e40b77.css.map",
+    "main.e02e8823.js.map": "/ieee_frontend/static/js/main.e02e8823.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a9e40b77.css",
+    "static/js/main.e02e8823.js"
+  ]
+}
