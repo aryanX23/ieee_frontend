@@ -4,9 +4,11 @@ import { useNavigate } from "react-router-dom";
 export default function Navbar(){
     const navigate = useNavigate();
     function handleNav(event){
-        event==="home"?navigate("/"):
-        event==="events"?navigate("/events"):
-        navigate("/contacts");
+        event === "home"
+            ? navigate("/ieee_frontend/")
+            : event === "events"
+            ? navigate("/ieee_frontend/events/")
+            : navigate("/ieee_frontend/events/");
     }
     return(
         <div className="navBody">

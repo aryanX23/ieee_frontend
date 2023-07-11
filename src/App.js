@@ -5,13 +5,17 @@ import Home from './components/Home/home';
 import Events from './components/Events/events';
 function App() {
   return (
-    <div className="App">
-      <Routes>
-        <Route exact path='/' element={<Home/>} />
-        <Route exact path='/events' element={<Events/>} />
-        <Route exact path='*' element={<Navigate to="/" replace={true} />} />
-      </Routes>
-    </div>
+      <div className="App">
+          <Routes>
+              <Route exact path="/ieee_frontend/" element={<Home />} />
+              <Route exact path="/ieee_frontend/events/" element={<Events />} />
+              <Route
+                  exact
+                  path="*"
+                  element={<Navigate to="/ieee_frontend/" replace={true} />}
+              />
+          </Routes>
+      </div>
   );
 }
 
